@@ -1,0 +1,68 @@
+
+# === Python ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+*.pdm.toml
+*.pdm.lock
+
+# === Virtual Environments ===
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Django ===
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+.env             # If using dotenv for secrets
+
+# === OS / IDE files ===
+.DS_Store
+Thumbs.db
+
+# === VSCode ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Coverage / Testing ===
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+
+# === Build artifacts ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Pipenv / Poetry / Pip ===
+Pipfile.lock
+poetry.lock
+
+# === My stuff ===
+#requirements.txt
+
