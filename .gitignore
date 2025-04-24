@@ -26,6 +26,7 @@ media/
 staticfiles/
 static_root/
 .env             # If using dotenv for secrets
+env.py
 
 # === OS / IDE files ===
 .DS_Store
